@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    {{msg}}
+    여기서부터 코드를 시작합니다!
+    <router-view></router-view> <!-- 라우팅에 따라 컴포넌트가 바뀌는 부분 -->
   </div>
 </template>
 
@@ -9,7 +10,6 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
     }
   }
 }
